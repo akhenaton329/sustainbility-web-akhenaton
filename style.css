@@ -1,0 +1,87 @@
+
+/* Main page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5EFE3;
+    color: #1F2A24;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+nav {
+    background-color: #2F4F3A;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 16px;
+}
+
+/* Main heading */
+h1 {
+    text-align: center;
+    color: #2F4F3A;
+}
+
+/* Other headings */
+h2, h3 {
+    color: #2F4F3A;
+}
+
+/* Paragraphs */
+p {
+    line-height: 1.6;
+    margin: 15px;
+}
+
+/* Content sections */
+.content-card {
+    background-color: #F3E6CC;
+    padding: 15px;
+    margin: 20px;
+}
+
+/* Images */
+img {
+    width: 80%;
+    max-width: 500px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Links */
+a {
+    color: #8A6420;
+}
+
+/* Quiz */
+#quiz {
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #2F4F3A;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Mobile layout */
+@media screen and (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    img {
+        width: 95%;
+    }
+}
